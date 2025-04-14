@@ -1,0 +1,39 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #15151e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Button Styles */
+.btn-danger {
+    background-color: #e10600;
+    border-color: #e10600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c40500;
+    border-color: #c40500;
+    color: white;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #222222;
+    border-bottom: 2px solid #e10600;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem
